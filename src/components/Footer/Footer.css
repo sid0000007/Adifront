@@ -1,0 +1,61 @@
+footer {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: aliceblue;
+  background-color: orange;
+  position:relative;
+
+}
+
+
+
+.footer {
+  justify-content: space-around;
+  align-items: center;
+
+  padding-inline: 40px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  background-color: orange;
+  width: 100%;
+}
+
+.left-footer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+}
+
+.subfooter {
+  justify-content: space-between;
+}
+
+.vertical {
+  max-width: 700px;
+  padding-block: 5px;
+
+  justify-content: space-between;
+}
+
+.foot-logo {
+  width: 50px;
+}
+
+.middle-foot {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.pad {
+  padding-inline: 30px;
+}
+
+.space-y-1 li a {
+  font-size: small;
+}
+
+.nav-left a img {
+  width: 45px;
+}

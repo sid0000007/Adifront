@@ -1,0 +1,122 @@
+/* video tak ka mamla */
+.hero {
+    position: relative;
+}
+
+.hero-right img {
+    width: 400px;
+}
+
+.homeimage {
+    width: 100% !important;
+    z-index: -10;
+}
+
+.gazz_ad {
+
+    z-index: -1;
+}
+
+.adidassvg {
+    position: absolute;
+    width: 80%;
+    padding-left: 80px;
+    opacity: 20%;
+    z-index: 1;
+
+}
+
+.video {
+    opacity: 100%;
+}
+
+.tagline {
+    top: 35%;
+    left: 10%;
+    font-family: sans-serif;
+    align-items: center;
+
+}
+
+.videoDiv {
+    padding-block: 0px !important;
+}
+
+video {
+    border-radius: 0px !important;
+    width: 100%;
+}
+
+.header {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* main hero section  */
+
+.mainhero {
+    padding-bottom: 60px;
+
+
+}
+
+.contain-project {
+    /* background-color: #dfd3b1; */
+    height: 600px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width:900px) {
+    .adidas {
+        width: 600px;
+    }
+
+}
+
+@media only screen and (max-width:700px) {
+    .adidassvg {
+        position: absolute;
+
+        opacity: 20%;
+        z-index: 1;
+
+    }
+
+    .videoDiv {
+        padding-block: 40px !important;
+        padding-inline:10px;
+    }
+    
+    video {
+        border-radius: 100px !important;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .adidassvg {
+        position: absolute;
+
+        opacity: 20%;
+        z-index: 1;
+
+    }
+
+    .proj {
+        flex-direction: column;
+
+    }
+
+    .gaz {
+        flex-direction: column;
+    }
+}
+
+
+.sale {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
